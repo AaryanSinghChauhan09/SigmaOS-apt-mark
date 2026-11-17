@@ -1,9 +1,9 @@
 [component]
 name = "SigmaOS-apt-mark"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
-description = "No GitHub description is set; component scope remains unclassified."
+description = "Package mark-state database (auto/manual/hold) with file persistence, inspired by Debian apt-mark."
 upstream = []
 
 [contract]
@@ -11,6 +11,6 @@ provides = ["component"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
-next_milestone = "Hardware and runtime integration"
+next_milestone = "Integrate with SigmaOS package manager for auto/manual dependency tracking"
